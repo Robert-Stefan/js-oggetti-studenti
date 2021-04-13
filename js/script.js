@@ -8,7 +8,8 @@ $(document).ready(function(){
  */
 
 // Punto 1
-var studenti = {
+
+/*var studenti = {
     nome : ['Pippo'],
     cognome : ['Perlusi'],
     età : [24]
@@ -16,14 +17,40 @@ var studenti = {
 
 for(var key in studenti) {
     console.log(studenti[key]);
-}
+}*/
 
 // Punto 2
 
-/*var studenti = {
-    nome : ['Pippo', 'Paolo', 'Pierluigi', 'Sara'],
-    cognome : ['Perlusi', 'Marchioni', 'DePino', 'Franzetti'],
-    età : [24,28,30,25]
+/*var studenti = [
+    {
+        nome: 'Pippo',
+        cognome: 'Perlusi',
+        età: 24,
+    },
+    {
+        nome: 'Paolo',
+        cognome: 'Marchioni',
+        età: 28,
+    },
+    {
+        nome: 'Pierluigi',
+        cognome: 'DePino',
+        età: 30,
+    },
+    {
+        nome: 'Sara',
+        cognome: 'Franzetti',
+        età: 25,
+    },
+];
+
+for (var i = 0; i < studenti.length; i++) {
+    var studente = studenti[i];
+
+        console.log( studente.nome + ' ' + studente.cognome );
 }*/
+
+// Punto 3
+
 
 });
