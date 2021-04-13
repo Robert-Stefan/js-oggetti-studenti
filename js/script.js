@@ -51,6 +51,45 @@ for (var i = 0; i < studenti.length; i++) {
 }*/
 
 // Punto 3
+    
+var studenti = [
+    {
+        nome: 'Pippo',
+        cognome: 'Perlusi',
+        età: 24,
+    },
+    {
+        nome: 'Paolo',
+        cognome: 'Marchioni',
+        età: 28,
+    },
+    {
+        nome: 'Pierluigi',
+        cognome: 'DePino',
+        età: 30,
+    },
+    {
+        nome: 'Sara',
+        cognome: 'Franzetti',
+        età: 25,
+    },
+];
 
+var newStudents = 
+    {
+        nome: prompt('Inserisci il nome dello studente: '),
+        cognome: prompt('Inserisci il tuo cognome: '),
+        età: parseInt(prompt('Inserisci la tua età: ')),
+    };
+
+console.log(studenti);
+studenti.push(newStudents);
+console.log(studenti);
+
+for (var i = 0; i < studenti.length; i++) {
+    var studente = studenti[i];
+
+    console.log( studente.nome + ' ' + studente.cognome + ' ' + studente.età);
+}
 
 });
